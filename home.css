@@ -1,0 +1,54 @@
+header{
+display: flex;
+background: rgba(7, 149, 71, 0.2);
+padding: 10px;
+}
+
+body{
+    background-color: rgb(198, 237, 198);
+}
+
+
+.logoPanel h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green ;
+    margin-right: 1rem;
+    margin-left: 10px;
+}
+
+.logoPanel{
+display: flex
+}
+
+.logoPanel img{
+   max-height: 8vh;
+}
+
+.searchBarPanel{
+    position: relative;
+    top: 1rem;
+    left: 10rem;
+
+
+}
+
+.searchBarPanel input{
+    border-radius: 8px;
+    padding: 5px;
+    font-size: larger;
+    padding-left: 8px;
+    border: green solid;
+    width: 100dvh;
+    height: 2.5rem;
+}
+
+button{
+
+border-radius: 8px;
+cursor: pointer;
+height: 3rem ;
+width: 3rem;
+border: green solid;
+
+
+}
