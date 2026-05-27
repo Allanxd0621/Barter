@@ -50,5 +50,46 @@ height: 3rem ;
 width: 3rem;
 border: green solid;
 
+}
 
+.recentSearches{
+display: none;
+background-color: rgb(198, 237, 198);
+border: green solid;
+width: 100dvh;
+padding: 5px;
+
+}
+
+.recentSearchesVisible{
+display: table;
+}
+
+.recentSearches ul{
+    list-style: none;
+}
+
+.recentSearches li{
+  
+    
+    margin-top: 8px ;
+    position: relative;
+    left: -2rem;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.recentSearches li:hover{
+    background-color: rgb(232, 238, 235);
+}
+
+
+.recentSearches a{
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(79, 74, 74);
+    
+    
 }
