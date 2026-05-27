@@ -21,6 +21,8 @@ display: flex
 }
 
 .logoPanel img{
+    position: relative;
+    top: 10px;
    max-height: 8vh;
 }
 
@@ -42,7 +44,7 @@ display: flex
     height: 2.5rem;
 }
 
-button{
+#searchBtn{
 
 border-radius: 8px;
 cursor: pointer;
@@ -52,7 +54,23 @@ border: green solid;
 
 }
 
+.walalang{
+    display: flex;
+}
+
+#exitRecent{
+    
+    border: none;
+    cursor: pointer;
+    background-color: rgb(198, 237, 198);
+}
+
+#exitRecent:hover{
+    color: green;
+}
+
 .recentSearches{
+
 display: none;
 background-color: rgb(198, 237, 198);
 border: green solid;
@@ -63,16 +81,18 @@ padding: 5px;
 
 .recentSearchesVisible{
 display: table;
+
 }
 
 .recentSearches ul{
+    margin: 0;
     list-style: none;
 }
 
 .recentSearches li{
   
     
-    margin-top: 8px ;
+    margin-top: 4px ;
     position: relative;
     left: -2rem;
     padding: 2px;
