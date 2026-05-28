@@ -1,0 +1,58 @@
+.itemSection{
+    margin: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin-top: 0;
+}
+
+.itemHolder{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: rgb(227, 255, 231);
+    transition: transform 0.3s ease;
+    height: fit-content;
+    border: rgb(198, 237, 198) solid;
+    
+}
+
+.itemHolder:hover{
+    transform: scale(1.02);
+    border: green solid;
+    border-radius: 12px;
+}
+
+.itemImg{
+    display: block;
+    justify-self: center;
+    height: 12rem;
+}
+
+.itemTitle{
+    color: green;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.itemClass{
+    color: green;
+    margin: 0;
+}
+
+p{
+    color: green;
+}
+
+.itemSwap{
+    margin: 0;
+}
+
+.itemLocation{
+    margin: 0;
+    margin-bottom: 5px;
+}
