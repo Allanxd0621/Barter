@@ -1,0 +1,138 @@
+header{
+display: flex;
+flex-wrap: wrap;
+background: rgba(7, 149, 71, 0.2);
+padding: 10px;
+}
+
+body{
+    background-color: rgb(198, 237, 198);
+}
+
+
+.logoPanel h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green ;
+    margin-right: 1rem;
+    margin-left: 10px;
+}
+
+.logoPanel{
+display: flex
+}
+
+.logoPanel img{
+    margin: 5px;    
+   max-height: 8vh;
+}
+
+
+
+#locationInput{
+    position: relative;
+    top: 1.5rem;
+    cursor: pointer;
+    height: 2rem ;
+    width: 2.5rem;
+    border: solid green;
+    border-radius: 8px;
+    color: green;  
+    transition: width 0.3s ease;
+ 
+}
+
+#locationInput:hover{
+    width: 5rem;
+   
+}
+
+
+.searchBarPanel{
+    position: relative;
+    top: 1rem;
+    left: 6rem;
+}
+
+.searchBarPanel input{
+    position: relative;
+    left: -5rem;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: larger;
+    padding-left: 8px;
+    border: green solid;
+    width: 100dvh;
+    height: 2.5rem;
+}
+
+#searchBtn{
+
+position: relative;
+left: -5rem;
+border-radius: 8px;
+cursor: pointer;
+height: 3rem ;
+width: 3rem;
+border: green solid;
+
+}
+
+.walalang{
+    display: flex;
+}
+
+#exitRecent{
+    
+    border: none;
+    cursor: pointer;
+    background-color: rgb(198, 237, 198);
+}
+
+#exitRecent:hover{
+    color: green;
+}
+
+.recentSearches{
+
+display: none;
+background-color: rgb(198, 237, 198);
+border: green solid;
+width: 100dvh;
+padding: 5px;
+
+}
+
+.recentSearchesVisible{
+display: table;
+
+}
+
+.recentSearches ul{
+    margin: 0;
+    list-style: none;
+}
+
+.recentSearches li{
+  
+    
+    margin-top: 4px ;
+    position: relative;
+    left: -2rem;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.recentSearches li:hover{
+    background-color: rgb(232, 238, 235);
+}
+
+
+.recentSearches a{
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(79, 74, 74);
+    
+    
+}
